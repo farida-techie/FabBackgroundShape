@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_margin="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape1"
+                   app:tint="@color/white"
+                   />
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape2"
+                   app:backgroundTint="#fff"
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_margin="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape3"
+                   app:backgroundTint="#18A81E"
+                   app:tint ="#FFEE59"
+                   />
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape4"
+                   app:backgroundTint="#ADF6FF"
+                   app:tint ="#CF1655"
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_margin="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape5"
+                   app:backgroundTint="#1276C6"
+                   app:tint ="#FFFEF7"
+                   />
+               <com.google.android.material.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_adb"
+                   android:layout_margin="15dp"
+                   app:shapeAppearanceOverlay="@style/FabShape6"
+                   app:backgroundTint="#FF0586"
+                   app:tint ="#76FF7C"
+                   />
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+</LinearLayout>
